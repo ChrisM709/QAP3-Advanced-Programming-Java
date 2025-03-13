@@ -42,7 +42,8 @@ public class MovablePoint extends Point {
 
     // moveable point
     public MovablePoint move() {
-        setXY(getX() + xSpeed, getY() + ySpeed);
+        setX(getX() + xSpeed);
+        setY(getY() + ySpeed);
         return this;
     }
     
